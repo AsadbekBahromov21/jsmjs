@@ -1,0 +1,168 @@
+.section{
+    width: 100%;
+    min-height: 1114px;
+    background: #0A3B4B;
+    .hero{
+        display: flex;
+        gap: 34px;
+        .hero__card{
+            width: 50%;
+            height: 544px;
+            margin-top: 170px;
+          
+            .btr{
+                @include button ();
+                background: #094556;
+                color: #ffff;
+                font-size: 18px;
+                width: 195px;
+                height: 65px;
+                border-radius: 30px;
+                overflow: hidden;
+                transform: scalex(0.9);
+                margin-bottom: 40px;
+                &:hover{
+                    cursor: pointer;
+                    transform: scalex(1);
+                }
+                
+            }
+            .text{
+                font-size: 64px;
+                color: #ffff;
+                font-weight: 700;
+                margin-bottom: 30px;
+            }
+            .hero__p{
+                font-size: 18px;
+                font-weight: 400;
+                color: #849499;
+                max-width: 511px;
+                margin-bottom: 50px
+            }
+            .hero__hire{
+                @include button();
+                background: #FFA63A;
+                width: 137px;
+                height: 61px;
+                border-radius: 25px;
+                color: #ffff;
+                font-size: 18px;
+                font-weight: 600;
+                &:hover{
+                    cursor: pointer
+                }
+            }
+            .button{
+                @include button();
+                background: none;
+                font-size: 18px;
+                font-weight: 500;
+                color: #ffff;
+                &:hover{
+                    cursor: pointer
+                }
+            }
+        }
+        .hero__foto{
+            margin-top: 43px;
+        }
+    }
+}
+.box{
+    width: 100%;
+    height: 323px;
+    border-radius: 30px;
+    background: #ffff;
+    margin-top: -161.5px;
+    padding: 0 60px 0 60px;
+    margin-bottom: 200px;
+    .box__h3{
+        font-size: 24px;
+        font-weight: 600;
+        padding-top: 64px;
+        text-align: center;
+        color: #265A6A;
+        margin-bottom: 79px;
+    }
+    .card{
+     display: flex;
+     justify-content: space-between;
+     .box__number{
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+
+     }
+    
+    .number{
+        font-size: 48px;
+        font-weight: 600;
+        color: #265A6A;
+    }
+    .text{
+        font-size: 18px;
+        font-weight: 400;
+        color: #265A6A;
+    }
+    }
+}
+.card__logo{
+    display: flex;
+    justify-content: center;
+    font-size: 24px;
+    font-weight: 400;
+    color: #265A6A;
+    margin-bottom: 30px;
+}
+.card__text{
+    display: flex;
+    margin: auto;
+    width: 510px;
+    font-size: 45px;
+    font-weight: 600;
+    color: #08546C;
+    margin-bottom: 70px;
+}
+.wrapper__card{
+    display: flex;
+    gap: 26px;
+    margin-bottom: 200px;
+    .wrapper{
+        width: 273px;
+        height: 251px;
+        border: 0.1px solid #ddd;
+        padding: 34px;
+        .wrapper__img{
+            margin-bottom: 25px;
+        }
+    }
+    .wrapper__h3{
+        font-size: 24px;
+        font-weight: 600;
+        color: #0F1221;
+        margin-bottom: 10px;
+    }
+    .wrapper__p{
+        font-size: 16px ;
+        font-weight: 400;
+        color: #696969;
+    }
+    .wrapper__box{
+        width: 273px;
+        height: 251px;
+        border: 0.1px solid #ddd;
+        padding: 23px 30px 34px 30px;
+        background: #08546C ;
+        .box__img{
+            padding-bottom: 25px;
+        }
+       .box__h3{
+        font-size: 24px;
+        font-weight: 600;
+        color: #ffff;
+        margin-bottom: 10px;
+       }
+    }
+}

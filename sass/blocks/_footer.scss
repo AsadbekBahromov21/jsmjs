@@ -1,0 +1,38 @@
+.footer__card{
+    display: flex;
+    gap: 164px;
+    .footer__wrapper{
+        width: 25%;
+       
+        .footer__wrapper_card{
+            margin-bottom: 20.38px;
+
+        }
+        .footer__p{
+            font-size: 18px;
+            font-weight: 400;
+            color: #757575;
+            line-height: 1.5;
+            margin-bottom: 55px;
+        }
+        
+    }
+}
+.footer__wrapper_b{
+    font-size: 24px;
+    font-weight: 400;
+    color: #08546C;
+    line-height: 2;
+    &:hover{
+        cursor: pointer;
+    }
+}
+.footer__collection{
+    font-size: 18px;
+    font-weight: 400;
+    color: #787878;
+    line-height: 2;
+    &:hover{
+        cursor: pointer;
+    }
+}

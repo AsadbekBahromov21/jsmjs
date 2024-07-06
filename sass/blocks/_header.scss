@@ -1,0 +1,81 @@
+.header{
+    width: 100%;
+    background: #0A3B4B;
+    // position: absolute;
+    // z-index: 1;
+    .navbar{
+        width: 100%;
+        height: 70px;
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+     
+    
+    
+        .navbar__collection{
+            font-family: poppins;
+            display: flex;
+            gap: 27px;
+        
+            .navbar__item{
+                font-family:poppins ;
+                font-size: 16px;
+                font-weight: 500;
+                color: #8B8E99;
+            }
+        }
+        .navbar__logo{
+            display: flex;
+            gap: 15.38px;
+          
+        }
+        .navbar__logo:hover{
+            cursor: pointer;
+            transform: scaleX(0.9);
+        }
+        .btr{
+            @include button();
+            background: #145E76;
+            color: #ffff;
+            font-size: 18px;
+            font-weight: 700;
+            border-radius: 25px;
+            width: 148px;
+            height: 58px;
+        }
+        .sidebar{
+            position:fixed;
+            top: 0;
+            left: -300px;
+            width: 300px;
+            height: 100vh;
+            background: #000;
+            z-index: 101;
+        }
+        .sidebar.show{
+            left: 0;
+        }
+    }
+}
+
+
+@media (max-width:990px) {
+    .header{
+        .navbar{
+            .navbar__item{
+                position:absolute;
+                top: 0;
+                display: flex;
+                flex-direction: column;
+                gap: 30px;
+                color: #fff;
+                left: -350px;
+                width: 300px;
+                height: 1000vh;
+                background: #000;
+                z-index: 101;
+            }
+        }
+    }
+    
+}
