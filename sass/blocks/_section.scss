@@ -166,3 +166,60 @@
        }
     }
 }
+@media (max-width:990px) {
+    .section{
+        padding-bottom: 200px;
+        .hero{
+            display: flex;
+            flex-direction: column;
+            gap: 5px;
+            .hero__card{
+                width: 100%;
+                margin-top: 5px;
+                display: flex;
+                flex-direction: column;
+                align-items: center;
+                justify-content: center;
+            }
+    .number{
+        font-size: 34px
+    }
+               
+            .text{
+                text-align: center;
+                font-size: 14px
+            }
+            .hero__foto{
+                width: 100%;
+                display: flex;
+                align-items: center;
+                justify-content: center;
+                margin-top: -100px;
+            }
+        }
+    }
+    .wrapper__card{
+        display: flex;
+        flex-wrap: wrap;
+        align-items: center;
+        justify-content: center;
+    }
+    .card__logo{
+        display: flex;
+        justify-content: center;
+        font-size: 24px;
+        font-weight: 400;
+        color: #265A6A;
+        margin-bottom: 30px;
+    }
+    .card__text{
+        display: flex;
+        text-align: center;
+        max-width: 300px;
+        font-size: 45px;
+        font-weight: 600;
+        color: #08546C;
+        margin-bottom: 70px;
+    }
+    
+}

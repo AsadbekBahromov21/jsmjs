@@ -77,3 +77,75 @@
         }
     }
 }
+@media (max-width:800px) {
+
+    .main__p{
+    display: flex;
+    margin: auto;
+    color: #757575;
+    font-size: 18px;
+    font-weight: 400;
+    max-width: 300px;
+    margin-bottom: 60px;
+}
+.main_card{
+    
+    // height: 588px;
+    // border: 1px solid red;
+    .main__img{
+        margin-bottom: 40.01px;
+        width: 300px;
+    }
+    .main__h2{
+        font-size: 30px;
+        font-weight: 600;
+        color: #08546C;
+        margin-bottom: 10px;
+    }
+    .main__desc{
+        font-size: 16px;
+        font-weight: 400;
+        max-width: 300px;
+        color: #757575;
+        margin-bottom: 20px;
+    }
+    .main__span{
+        font-size: 18px;
+        font-weight: 500;
+        color: #08546C;
+    }
+}
+.bacround{
+    width: 100%;
+    height: 1000px;
+    background: #265A6A;
+    
+    margin-bottom: 20px;
+    .main__hero{
+        display: flex;
+     flex-direction: column;
+      .main__img{
+        width: 100%;
+        .foto{
+         margin-top: 5px;
+        }
+      }
+        .teheme__img{
+            margin-top: 20px;
+            margin-bottom: 32.55px;
+        }
+        .theme__p{
+             max-width: 400px;
+            font-size: 16px;
+            font-weight: 500;
+            color: #ffff;
+            margin-bottom: 33.55px;
+        }
+        .theme__text{
+            font-size: 16px;
+            font-weight: 400;
+            color: #AABFC6;
+        }
+    }
+}
+}
