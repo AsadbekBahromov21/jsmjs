@@ -10,7 +10,7 @@
             height: 544px;
             margin-top: 170px;
           
-            .btr{
+            .inp{
                 @include button ();
                 background: #094556;
                 color: #ffff;
@@ -165,6 +165,16 @@
         margin-bottom: 10px;
        }
     }
+}
+.top{
+    position: fixed;
+    bottom: -30px;
+    right: 30px;
+    width: 30px;
+    height: 30px;
+    background: #000;
+    border-radius: 50%;
+    transition: .3s;
 }
 @media (max-width:990px) {
     .section{

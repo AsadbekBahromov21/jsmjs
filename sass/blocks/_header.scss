@@ -1,11 +1,20 @@
 .header{
     width: 100%;
     background: #0A3B4B;
+    height: 80px;
+    width: 100%;
+   
     // position: absolute;
     // z-index: 1;
+    position: sticky;
+        top: 0;
+        left: 0;
+        .shrink{
+            background: #4aa6c579;
+            height: 60px;
+        }    
     .navbar{
-        width: 100%;
-        height: 70px;
+       
         display: flex;
         align-items: center;
         justify-content: space-between;
@@ -43,39 +52,47 @@
             width: 148px;
             height: 58px;
         }
-        .sidebar{
-            position:fixed;
-            top: 0;
-            left: -300px;
-            width: 300px;
-            height: 100vh;
-            background: #000;
-            z-index: 101;
-        }
-        .sidebar.show{
-            left: 0;
-        }
+      
+        
     }
+}
+.navbar.show{
+    left: 0;
+}
+.menu{
+    display: none;
 }
 
 
 @media (max-width:990px) {
     .header{
         .navbar{
-            .navbar__item{
-                position:absolute;
+            position:fixed;
                 top: 0;
+                flex-direction: column;
+                padding: 30px;
+                color: #fff;
+                left: -300px;
+                width: 300px;
+                height: 100vh;
+                transition: .5s;
+                background: #000;
+                z-index: 11;
+            .navbar__collection{
                 display: flex;
                 flex-direction: column;
-                gap: 30px;
-                color: #fff;
-                left: -350px;
-                width: 300px;
-                height: 1000vh;
-                background: #000;
-                z-index: 101;
+                padding: 20px;
+                
+                
             }
         }
+    }
+    .menu{
+        display: block;
+        display: flex;
+        padding: 10px;
+        color: #fff;
+        justify-content: end;
     }
     
 }

@@ -4,12 +4,13 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.2/css/all.min.css" integrity="sha512-SnH5WK+bZxgPHs44uWIX+LLJAJ9/2PkPKZ5QiAj6Ta86w+fsb2TkcmfRyVX3pBnMFcV7oQPJkl9QevSCWr3W6A==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link rel="stylesheet" href="./css/main.min.css">
 </head>
 <body>
-    <header class="header">
+    <header class="header ">
         <div class="container">
-            <nav class="navbar">
+            <nav class="navbar  ">
                 <div class="navbar__logo">
                     <ul class="navbar__collection">
                         <li style="color: #ffff;" class="navbar__item">
@@ -35,18 +36,27 @@
                     </li>
                     </ul>
                 </div>
-                <div class="sidebar"></div>
-                <div onclick="sidebarOpen()" class="navbar__logo">
-                   <button  class="btr">Contact</button>
+                 
+                <div  class="navbar__logo">
+                   <button   class="btr">Contact</button>
                 </div>
             </nav>
+            <div  class="menu">
+                <i class="fa-solid fa-bars"></i>
+            </div>
         </div>
         </header>
-        <section class="section">
+        <section class="section" id="section">
             <div class="container">
                 <div class="hero">
                     <div class="hero__card">
-                        <button class="btr" >Hey, I’m Musa</button>
+                        <form class="form" action=""><input class="inp" placeholder="Hey, I’m Musa" type="text">
+                            <button style="padding: 6px 18px; background: transparent; border: 1px solid #eee; border-radius: 20px; outline: none; font-size: 13px" type="submit">login</button>
+                        </form>
+                        
+                       
+                        
+                    
                         <h2 class="text">Building Digital
                             Products, Brands
                             & Experience.</h2>
@@ -118,8 +128,9 @@
                         some proccess and method.</p>
                 </div>
             </div>
+            <a class="top" href="#"></a>
     </div>
-    <main class="main">
+    <main class="main" id="main">
         <div class="container">
             <h2 class="main__text">Featured My Portfolio</h2>
             <p class="main__p">Explore some of my latest website projects. Non suscipit ex blandit
