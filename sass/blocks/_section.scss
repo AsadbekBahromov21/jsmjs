@@ -185,14 +185,14 @@
             gap: 5px;
             .hero__card{
                 width: 100%;
-                margin-top: 5px;
+                margin-top: 20px;
                 display: flex;
                 flex-direction: column;
                 align-items: center;
                 justify-content: center;
             }
     .number{
-        font-size: 34px
+        font-size: 30px
     }
                
             .text{
@@ -204,7 +204,7 @@
                 display: flex;
                 align-items: center;
                 justify-content: center;
-                margin-top: -100px;
+                // margin-top: -100px;
             }
         }
     }
@@ -231,5 +231,15 @@
         color: #08546C;
         margin-bottom: 70px;
     }
+    .activ{
+        display: none;
+
+    }
+    .box__h3{
+        font-size: 20px;
+        font-weight: 600;
+        color: #ffff;
+        margin-bottom: 5px;
+       }
     
 }
